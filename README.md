@@ -6,6 +6,10 @@ Use the Browse tab to navigate TWiT’s recent shows. When you tap on an episode
 
 When you’re done selecting episodes, go to the Mix tab to see your saved episodes. Tap on any episode to play it. Swipe a saved episode to the left to delete it from the list.
 
+## Compiling
+
+Please note that this app was written for Swift 3.x, and will not compile on the current version of Xcode (10.2.1 as of this commit). I'm currently working on moving the project to Swift 5.
+
 ## API Key
 
 Note: This app relies on a private TWiT API key — located at `/TwitMix/Keys.plist` — to access show and episode data. These keys are not present in the public GitHub repo and for the app to work, you will have to supply your own API key. The `plist` file should be formatted as follows:
